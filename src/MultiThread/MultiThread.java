@@ -2,6 +2,8 @@ package MultiThread;
 
 public class MultiThread extends Thread{
     volatile static int i=0;
+    int iiii;
+    boolean bo;
 
     @Override
     public void run() {
