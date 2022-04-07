@@ -5,6 +5,8 @@ public class MultiThread extends Thread{
 
     @Override
     public void run() {
+
+
         for (int t = 0; t < 20; t++) {
             System.out.println("i= " + i);
             try {
